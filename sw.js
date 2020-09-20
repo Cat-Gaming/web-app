@@ -1,7 +1,7 @@
 self.addEventListener('install', event => {
     event.waitUntil(
         caches.open('static').then(cache => {
-            return cache.addAll(['./', './images/apple-touch-icon.png', './manifest.json', './index.js', './app.js', './sw.js', 'https://unpkg.com/onsenui/css/onsenui.css'])
+            return cache.addAll(['./', './images/apple-touch-icon.png', './manifest.json', './index.js', './app.js', './sw.js', './onsenui.css', './onsen-css-components.min.css'])
         })
     )
 });

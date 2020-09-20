@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <script async src="https://cdn.jsdelivr.net/npm/pwacompat" crossorigin="anonymous"></script>
+    <title>App</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+  <script src="https://unpkg.com/onsenui/js/onsenui.js"></script>
+</head>
+<body>
+    <ons-page>
+        <ons-toolbar>
+            <div class="center">App</div>
+            <div class="left"></div>
+        </ons-toolbar>
+        <ons-list>
+            <ons-list-header>Settings</ons-list-header>
+            <ons-list-item>
+                <div class="center">Cool Feature</div>
+                <div class="right">
+                    <ons-switch id="cool-feature"></ons-switch>
+                </div>
+            </ons-list-item>
+        </ons-list>
+    </ons-page>
+    <script src="index.js"></script>
+</body>
+</html>
